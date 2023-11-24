@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.section-center {
+  width: 90vw;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+/* navbar */
+header {
+  padding: 0.5rem;
+  background-color: white;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+}
+.logo-photo {
+  width: 150px;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1050px;
+  align-items: center;
+}
+.price h1 {
+  text-align: center;
+  background-color: blueviolet;
+  font-size: 2.5rem;
+  padding: 0.4rem 1rem;
+  border: 2px solid purple;
+  color: white;
+  font-weight: bold;
+}
+/* end of navbar */
+/* cards */
+.card-info {
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  max-width: 250px;
+}
+.card-info h2 {
+  color: blueviolet;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+.card-info h4 {
+  color: blueviolet;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card{
+  max-width: 250px;
+}
+.cards-center {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+.btn,
+.btns {
+  background-color: rgb(8, 189, 8);
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.info-center p {
+  color: gray;
+  font-weight: bold;
+}
+.info-center span {
+  color: rgb(59, 58, 58);
+}
+.card p {
+  color: black;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: rgba(8, 189, 8, 0.653);
+}
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+.card h2 {
+  color: rgb(60, 60, 60);
+  margin: 1rem 0;
+}
+.btn-1 {
+  background-color: rgb(126, 2, 2);
+  color: white;
+}
+.btn-1:hover,
+.btn-2:hover {
+  background-color: blueviolet;
+}
+.btn-2 {
+  background-color: rgb(8, 189, 8);
+  color: white;
+}
+.blog-photo {
+  width: 150px;
+  object-fit: cover;
+}
+/* end of cards */
+/* next page */
+.sales-info {
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.321);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 3rem auto;
+  max-width: 450px;
+}
+.sales-info h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.sales-info h4 {
+  color: blueviolet;
+  font-size: 1.5rem;
+}
+.sales-info p {
+  color: rgb(54, 53, 53);
+  font-size: 1.2rem;
+  margin: 0.6rem 0;
+}
+.dol {
+  color: rgb(2, 111, 16);
+  font-weight: bold;
+}
+.sales-price {
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid purple;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.sales {
+  display: grid;
+}
+.up {
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  background: purple;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+/* end of next page */
