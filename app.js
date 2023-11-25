@@ -44,5 +44,5 @@ function scrollToTop() {
 }
 // ==========================//
 function scrolling() {
-  window.scrollBy(0,500)
+  window.scrollBy(0, 500);
 }

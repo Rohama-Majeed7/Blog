@@ -98,8 +98,15 @@ html {
     margin: 8rem auto;
   }
 }
-.btn,
-.btns {
+@keyframes pop {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
+.btn {
   background-color: rgb(8, 189, 8);
   padding: 1rem 1.5rem;
   color: white;
@@ -108,6 +115,9 @@ html {
   border-radius: 1rem;
   cursor: pointer;
   margin-top: 0.5rem;
+  animation-name: pop;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 .info-center p {
   color: gray;
@@ -142,7 +152,6 @@ html {
   border: none;
   border-radius: 1rem;
   font-size: 1.5rem;
-  margin: 0.5rem;
 }
 .btn-1:hover,
 .btn-2:hover {
@@ -155,6 +164,7 @@ html {
   border: none;
   border-radius: 1rem;
   font-size: 1.5rem;
+  margin: 0.5rem;
 }
 .blog-photo {
   width: 150px;
@@ -167,7 +177,7 @@ html {
   box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.321);
   padding: 1rem;
   border-radius: 1rem;
-  margin: 3rem auto;
+  margin: 8rem auto;
   max-width: 450px;
 }
 .sales-info h3 {
