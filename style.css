@@ -25,7 +25,7 @@ html {
   background-color: white;
   box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
   border-radius: 2rem;
-  height: 100px;
+  /* height: 100px; */
 }
 .fixed-nav {
   position: fixed;
@@ -219,4 +219,67 @@ html {
   border-radius: 1rem;
   border: none;
 }
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* end of next page */
+@media screen and (max-width: 600px) {
+  .nav-center {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .nav-center h1 {
+    font-size: 1rem;
+  }
+  .cards-center {
+    margin: 8rem auto;
+  }
+  .sales-info h4 {
+    font-size: 1rem;
+  }
+  .sales-info h3 {
+    font-size: 1.3rem;
+  }
+  .logo-photo {
+    width: 120px;
+  }
+  .nav-header {
+    justify-self: start;
+  }
+  .sales-price {
+    font-size: 1.4rem;
+  }
+  .arrow {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .header {
+    margin: 0.6rem;
+    border-radius: 0.2rem;
+    width: 95vw;
+  }
+  .card-info h2{
+    font-size: 1.2rem;
+  }
+  .card-info p{
+    font-size: 1rem;
+  }
+  .btn{
+    font-size: 2.5rem;
+  }
+  .btn-1, .btn-2{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .blog-photo{
+    width: 100%;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
