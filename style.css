@@ -8,8 +8,9 @@
   list-style: none;
 }
 body {
-font-family: 'Prompt', sans-serif;
-font-weight: bolder;}
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -70,7 +71,7 @@ html {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.card-info p{
+.card-info p {
   font-size: 1.2rem;
 }
 .card {
@@ -90,7 +91,7 @@ html {
     flex-direction: row;
     gap: 1rem;
   }
-  .nav-center h1{
+  .nav-center h1 {
     font-size: 1rem;
   }
   .cards-center {
