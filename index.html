@@ -11,17 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="preload"
-      as="font"
-      href="https://cdn2.123tp.net/132d3dac3f0c487d8c5dfa1f2af53802/fonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2"
-      crossorigin=""
-    />
     <title>My-Blogs</title>
   </head>
   <body>
     <!-- navbar -->
-    <header>
+
+    <header class="header fixed-nav">
       <nav class="nav-center section-center">
         <div class="nav-header">
           <img src="./images/logo.svg" alt="logo" class="logo-photo" />
@@ -45,10 +40,10 @@
             <h4>Aproveite, você já ganhou R$50!</h4>
           </div>
           <p>Faça 4 avaliações e realize seu primeiro saque!</p>
-          <button class="btn">COMECAR</button>
+          <button class="btn" id="btn-1">COMECAR</button>
         </article>
         <!-- ====================== -->
-        <article class="card" data-id="card-1">
+        <article class="card" data-value="card-1" id="card-1">
           <img src="./images/image1.jpg" alt="card-1" class="blog-photo" />
           <h2>Escolha uma opção abaixo:</h2>
           <div class="btn-container">
@@ -61,28 +56,29 @@
           </div>
         </article>
         <!-- ==================== -->
-        <article class="card" data-id="card-2">
+        <article class="card" data-value="card-2" id="card-2">
           <img src="./images/image2.jpg" alt="card-1" class="blog-photo" />
           <h2>Escolha uma opção abaixo:</h2>
           <div class="btn-container">
-            <button class="btn-1 btns">
+            <button class="btn-1 btns" id="btn-3">
                 <span><i class="fas fa-thumbs-down"></i></span>reprovado
               </button>
-            <button class="btn-2 btns">
+            <button class="btn-2 btns" id="btn-3">
                 <i class="fas fa-thumbs-up"></i>aprovado
               </button>
           </div>
         </article>
         <!-- ==================== -->
-        <article class="card" data-id="card-3">
-          <img src="./images/image3.jpg" alt="card-1" class="blog-photo" />
+        <article class="card" data-value="card-3" id="card-3">
+          <img src="./images/image3.jpg" alt="card-1" 
+          class="blog-photo" />
           <h2>Escolha uma opção abaixo:</h2>
-          <div class="btn-container">
+          <div class="btn-container" id="btn-4">
             <button class="btn-1 btns">
               <span><i class="fas fa-thumbs-down"></i></span>reprovado
             </button>
 
-            <button class="btn-2 btns">
+            <button class="btn-2 btns" id="btn-4">
               <i class="fas fa-thumbs-up"></i>aprovado
             </button>
           </div>
@@ -93,12 +89,12 @@
           <h2>Escolha uma opção abaixo:</h2>
           <div class="btn-container">
             <a href="aprova.html"
-              ><button class="btn-1 btns">
+              ><button class="btn-1 btns" id="btn-5">
                 <span><i class="fas fa-thumbs-down"></i></span>reprovado
               </button></a
             >
             <a href="aprova.html"
-              ><button class="btn-2 btns">
+              ><button class="btn-2 btns" id="btn-5">
                 <i class="fas fa-thumbs-up"></i>aprovado
               </button></a
             >
@@ -107,6 +103,9 @@
         <!-- ==================== -->
       </div>
     </section>
+    <!-- put the 100th vertical pixel at the top of the window -->
+
+
     <!-- end of cards -->
     <button class="up" onclick="scrollToTop()">
       <i class="fas fa-arrow-up"></i>

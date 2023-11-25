@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,9 @@
   text-decoration: none;
   list-style: none;
 }
+body {
+font-family: 'Prompt', sans-serif;
+font-weight: bolder;}
 html {
   scroll-behavior: smooth;
 }
@@ -15,11 +19,18 @@ html {
   margin: 0 auto;
 }
 /* navbar */
-header {
+.header {
   padding: 0.5rem;
   background-color: white;
   box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
   border-radius: 2rem;
+  height: 100px;
+}
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .logo-photo {
   width: 150px;
@@ -29,6 +40,7 @@ header {
   justify-content: space-around;
   max-width: 1050px;
   align-items: center;
+  /* gap: 4rem; */
 }
 .price h1 {
   text-align: center;
@@ -58,7 +70,10 @@ header {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.card{
+.card-info p{
+  font-size: 1.2rem;
+}
+.card {
   max-width: 250px;
 }
 .cards-center {
@@ -66,8 +81,21 @@ header {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  justify-content: space-around;
   gap: 2rem;
-  margin: 2rem auto;
+  margin: 7rem auto;
+}
+@media screen and (max-width: 600px) {
+  .nav-center {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .nav-center h1{
+    font-size: 1rem;
+  }
+  .cards-center {
+    margin: 8rem auto;
+  }
 }
 .btn,
 .btns {

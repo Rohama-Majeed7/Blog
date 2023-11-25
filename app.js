@@ -22,7 +22,6 @@ const increaseCount = setInterval(() => {
 // items.forEach((item) => {
 //   updateCount(item);
 // });
-// =====================//
 var mybutton = document.querySelector(".up");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -43,13 +42,10 @@ function scrollToTop() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
-const cards = [...document.querySelectorAll(".card")];
-const btn1 = document.querySelectorAll(".btn-1")
-const btn2 = document.querySelectorAll(".btn-2")
-let cardindex = 0;
-btn1.forEach((btn) => {
+// ==========================//
+const btns = document.querySelectorAll(".btn-container.btns");
+btns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    cardindex++;
-    
-  })
-})
+    console.log("hello");
+  });
+});
