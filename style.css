@@ -138,6 +138,11 @@ html {
 .btn-1 {
   background-color: rgb(126, 2, 2);
   color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 .btn-1:hover,
 .btn-2:hover {
@@ -146,6 +151,10 @@ html {
 .btn-2 {
   background-color: rgb(8, 189, 8);
   color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
 }
 .blog-photo {
   width: 150px;
