@@ -43,3 +43,6 @@ function scrollToTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
 // ==========================//
+function scrolling() {
+  window.scrollBy(0,500)
+}
