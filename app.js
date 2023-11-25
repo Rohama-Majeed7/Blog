@@ -43,9 +43,3 @@ function scrollToTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
 // ==========================//
-const btns = document.querySelectorAll(".btn-container.btns");
-btns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    console.log("hello");
-  });
-});
