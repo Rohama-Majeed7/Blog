@@ -11,7 +11,7 @@ const increaseCount = setInterval(() => {
   initialValue += increment;
 
   if (initialValue > value) {
-    el.textContent = ` Saldo Total: R$ ${value}`;
+    el.textContent = ` Saldo Total: R$ ${value},00`;
     clearInterval(increaseCount);
     return;
   }
